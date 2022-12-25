@@ -28,7 +28,7 @@ int main()
         if(premier == nbr) 
         {
             somme += nbr;
-            printf("somme + %d = %d \n",nbr,somme);
+            //printf("somme + %d = %d \n",nbr,somme);
         }
             
     }
