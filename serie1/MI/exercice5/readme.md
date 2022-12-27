@@ -8,8 +8,7 @@ suite de 𝑵 entiers.
 4. Recherche du minimum et du maximum dans un ensemble de 𝑵 nombres réels.
 5. Calcul du nombre d'apparitions d'une valeur donnée 𝑽𝑨𝑳 dans une suite de 𝑵
 nombres réels.
-6. Calcul du quotient et reste de la division de deux entiers 𝑨 et 𝑩 sans utiliser l'opération
-de division.
+6. Calcul du quotient et reste de la division de deux entiers 𝑨 et 𝑩 sans utiliser l'opération de division.
 7. Calcul du nombre d'occurrences des caractères 'A' et 'a' dans une suite de 𝑵 caractères.
 8. Affichage de l'alphabet complet ('A' à 'Z').
 9. Affichage du nombre de lettres majuscules et celui de lettres minuscules à partir d'une
