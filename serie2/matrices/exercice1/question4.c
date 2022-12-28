@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Programme qui fait une Rotation d'une position a gauche des colonnes d'une matrice */
+
 int main()
 {
-    char A[20][30], T[20][30];
+    char A[20][30], T[20];
     int i, j, M, N;
 
     do
@@ -29,6 +31,7 @@ int main()
 
     printf("\n");
 
+    //affichaage avant rotation
     for(i = 0; i < N; i++)
     {
         for(j = 0; j < M; j++)
@@ -40,23 +43,36 @@ int main()
 
     printf("\n");
 
+    // Sauvegarder la derniere colonne 
+    for(i = 0; i < N; i++)
+        T[i] = A[i][M - 1];
+
+    //rotation 
+    j = M - 2;
+    while (j >= 0)
+    {
+        for(i = 0; i < N; i++)
+        {
+            A[i][j + 1] = A[i][j];
+        }
+        j--;
+    }
+
+    //ajouter derniere colonne
+    for(i = 0; i < N; i++)
+        A[i][0] = T[i];
+
+
+    //affichaage apres rotation
     for(i = 0; i < N; i++)
     {
         for(j = 0; j < M; j++)
         {
-            T[j][i] = A[i][j];
-        }
-    }
-
-    for(j = 0; j < M; j++)
-    {
-        for(i = 0; i < N; i++)
-        {
-            printf(" %c", T[j][i]);
+            printf(" %c", A[i][j]);
         }
         printf("\n");
     }
-    
+
     return 0;
 
 }
