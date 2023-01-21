@@ -23,7 +23,9 @@
 ## Question 4 :
 
     (voir solution.c)
-    (+5)
+    moyenne (+2)
+    suppression (+2)
+    ordre (+2)
 
 
 

@@ -66,7 +66,7 @@ int main(){
     }
     
     //affichage (pas obligatoire)
-    printf("\nTableau apres suppression des valeurs inferieures à la moyenne et tri : \n");
+    printf("\nTableau apres suppression des valeurs inferieures a la moyenne et trie : \n");
     for(int i = 0; i < n; i++) {
         printf("%d ", tab[i]);
     }
